@@ -33,6 +33,7 @@ public class MainClass13_1 {
 		System.out.println(sb);
 		System.out.println("The Length is "+sb.length());//using length method
 		System.out.println(sb.substring(0,35)+" is ranking 27 in India");//using substring method 
+		sc.close();
 	}
 
 }
