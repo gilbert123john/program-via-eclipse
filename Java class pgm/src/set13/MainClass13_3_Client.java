@@ -1,6 +1,6 @@
 /**
  * Write a program to implement one-one chatting using the TCP protocol.
- * connection 
+ * connection oriented
  */
 package set13;
 
