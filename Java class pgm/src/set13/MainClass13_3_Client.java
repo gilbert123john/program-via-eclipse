@@ -26,8 +26,8 @@ public class MainClass13_3_Client {
 				if(str.equals("#")) {
 					break;
 				}
-				System.out.println("Message from server is "+str);
-				System.out.println("Enter your message that need to be send ---breakpoint # --");
+				System.out.println("Server ->"+str);
+				System.out.println("(breakpoint #) client to server ->");
 				str=sc.nextLine();
 				dout.writeUTF(str);
 				if(str.equals("#")) {
