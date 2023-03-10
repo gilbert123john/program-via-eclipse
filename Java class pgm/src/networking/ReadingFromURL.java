@@ -11,9 +11,9 @@ public class ReadingFromURL {
 			URL url = new URL("https://asia.olympus-imaging.com/content/000090033.jpg");
 			BufferedReader reader = new BufferedReader(new InputStreamReader(url.openStream()));
 			String s;
-			while(s=reader.readLine()!=null) {
-				
-			}
+//			while(s=reader.readLine()!=null) {
+//				
+//			}
 //			System.out.println("String "+ url.toString());
 //			System.out.println("protocol "+ url.getProtocol());
 //			System.out.println("HostName "+ url.getHost());
