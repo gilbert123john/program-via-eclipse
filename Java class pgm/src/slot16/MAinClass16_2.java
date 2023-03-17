@@ -1,3 +1,4 @@
+//Assume that login is a table which has Uname, Upass. Check whether a record with “Uname=”Bob” and “UPass=”Alice123#”is present in the table. 
 package slot16;
 import java.sql.Connection;
 import java.sql.DriverManager;
